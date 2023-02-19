@@ -1,0 +1,6 @@
+#ifndef _SND_I2S_AUDIO_OSMOS_H_
+#define _SND_I2S_AUDIO_OSMOS_H_
+
+#define SND_I2S_AUDIO_OSMOS_VERSION  "0.1.0"
+
+#endif
