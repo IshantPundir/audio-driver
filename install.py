@@ -1,4 +1,7 @@
-from adafruit_shell import Shell
+try:
+    from adafruit_shell import Shell
+except ImportError:
+    raise RuntimeError("The  'adafruit_shell' was not found. To install, try typing: sudo pip3 install adafruit-python-shell")
 
 shell = Shell()
 
